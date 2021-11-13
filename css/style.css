@@ -49,6 +49,7 @@ button{
     margin:0 auto;
 }
 #formatted{
+   font-size:18px;
    border-bottom:5px solid rgba(247, 247, 250,0.6);
    border-radius: 4px;
    margin-top: -20px;
