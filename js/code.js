@@ -1,4 +1,4 @@
-function formatAdress() {
+function formatAddress() {
     document.getElementById('headerFormatted').innerText = 'Address formatted:'
 
     let name = document.getElementById('name').value
