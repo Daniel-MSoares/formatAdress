@@ -38,16 +38,11 @@ label{
     }
 }
 @media screen and (max-width: 700px) {
-    main{
-        margin-left: auto;
-        align-items: center;
-        color: #F8FBEF;
-        padding-left: 50px;
-    }
     .content{
+        width: 95%;
         display: inline-block;
         text-align: start;
-        align-items: center;
+        margin-left: 5%;
         margin:0px auto;
     }
     label{
