@@ -1,13 +1,20 @@
 body{
+    max-width: 1300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background:linear-gradient(to right,rgba(77, 118, 243, 0.6),rgba(0, 4, 255, 0.9)),url('../img/corujaBG.gif') fixed no-repeat center;
     background-color: #51a0fc;
+    background-attachment: fixed;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+    width: 90%;
+    margin:0px auto ;
 }
 main{
-    margin-left: auto;
-    align-items: center;
+    width: 100%;
     color: #F8FBEF;
-    padding-left: 50px;
 }
 
 .title{
@@ -21,7 +28,28 @@ label{
     width: 200px;
     font-size: x-large;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1000px) {
+    label{
+        margin-bottom: 10px;
+        display: block;
+        text-align: start;
+        width: auto;
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 700px) {
+    main{
+        margin-left: auto;
+        align-items: center;
+        color: #F8FBEF;
+        padding-left: 50px;
+    }
+    .content{
+        display: inline-block;
+        text-align: start;
+        align-items: center;
+        margin:0px auto;
+    }
     label{
         margin-bottom: 10px;
         display: block;
@@ -49,15 +77,11 @@ button{
     margin:0 auto;
 }
 #formatted{
-   font-size:22px;
+   font-size: large;
    font-weight: bold;
-   border-bottom:5px solid rgba(247, 247, 250,0.6);
    border-radius: 4px;
    margin-top: -20px;
-   position: absolute;
-   display:inline-block;
 }
 #form{
     margin-right: 5em;
-    display:inline-block;
 }
